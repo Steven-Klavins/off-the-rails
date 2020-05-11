@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Off the rails
+# Off the rails is a short and sweet web app for posting articles 
+# I'm developing this app with a slightly modifide approach to the getting started with rails guide
+https://guides.rubyonrails.org/getting_started.html
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
