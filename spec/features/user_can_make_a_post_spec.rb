@@ -5,7 +5,7 @@ RSpec.feature "Make Post", type: :feature do
     visit "articles/new"
     fill_in "article_title", with: "My new post"
     fill_in "article_text", with: "Hello here is some random text"
-    click_button "Save Article"
+    click_button "Create Article"
     expect(page).to have_content("My new post")
     expect(page).to have_content("Hello here is some random text")
   end
@@ -14,7 +14,7 @@ RSpec.feature "Make Post", type: :feature do
       visit "articles/new"
       fill_in "article_title", with: "This awesome new post"
       fill_in "article_text", with: "Hello here is some random text"
-      click_button "Save Article"
+      click_button "Create Article"
       visit "/articles"
       expect(page).to have_content("This awesome new post")
       expect(page).to have_content("Hello here is some random text")

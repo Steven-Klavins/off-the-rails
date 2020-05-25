@@ -5,7 +5,7 @@ RSpec.feature "Make Post", type: :feature do
     visit "articles/new"
     fill_in "article_title", with: "abc"
     fill_in "article_text", with: "Hello here is some random text"
-    click_button "Save Article"
+    click_button "Create Article"
     expect(page).to have_content("Title is too short (minimum is 5 characters)")
     visit "/articles"
     expect(page).should have_no_content("abc") 
@@ -15,7 +15,7 @@ RSpec.feature "Make Post", type: :feature do
     visit "articles/new"
     fill_in "article_title", with: "This article"
     fill_in "article_text", with: "Hello here is some random text"
-    click_button "Save Article"
+    click_button "Create Article"
     click_on('Back')
     expect(page).to have_content("This article")
     click_on('Edit')
@@ -25,4 +25,16 @@ RSpec.feature "Make Post", type: :feature do
     click_on('Back')
     expect(page).to have_content("New title") 
   end
+
+  scenario "User will a user can edit an article" do
+    visit "articles/new"
+    fill_in "article_title", with: "This article"
+    fill_in "article_text", with: "Hello here is some random text"
+    click_button "Create Article"
+    click_on('Back')
+    expect(page).to have_content("This article")
+    click_on('Delete')
+  end
 end
+
+
