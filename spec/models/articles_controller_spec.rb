@@ -10,4 +10,19 @@ RSpec.feature "Make Post", type: :feature do
     visit "/articles"
     expect(page).should have_no_content("abc") 
   end
+
+  scenario "User will a user can edit an article" do
+    visit "articles/new"
+    fill_in "article_title", with: "This article"
+    fill_in "article_text", with: "Hello here is some random text"
+    click_button "Save Article"
+    click_on('Back')
+    expect(page).to have_content("This article")
+    click_on('Edit')
+    fill_in "article_title", with: "New title"
+    click_button "Update Article"
+    expect(page).to have_content("Title: New title") 
+    click_on('Back')
+    expect(page).to have_content("New title") 
+  end
 end
