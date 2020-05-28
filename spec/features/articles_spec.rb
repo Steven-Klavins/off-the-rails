@@ -1,6 +1,27 @@
 require 'rails_helper'
 
-RSpec.feature "Make Post", type: :feature do
+RSpec.feature "Make Post with validation", type: :feature do
+
+
+  scenario "Can submit posts" do
+    visit "articles/new"
+    fill_in "article_title", with: "My new post"
+    fill_in "article_text", with: "Hello here is some random text"
+    click_button "Create Article"
+    expect(page).to have_content("My new post")
+    expect(page).to have_content("Hello here is some random text")
+  end
+
+    scenario "A user adds an article to the Articles list" do
+      visit "articles/new"
+      fill_in "article_title", with: "This awesome new post"
+      fill_in "article_text", with: "Hello here is some random text"
+      click_button "Create Article"
+      visit "/articles"
+      expect(page).to have_content("This awesome new post")
+      expect(page).to have_content("Hello here is some random text")
+    end
+
   scenario "User will not able to submit a post with a title less than 5 characters" do
     visit "articles/new"
     fill_in "article_title", with: "abc"
