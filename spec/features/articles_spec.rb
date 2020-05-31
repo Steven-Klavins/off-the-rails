@@ -54,7 +54,7 @@ RSpec.feature "Make Post with validation", type: :feature do
     click_button "Create Article"
     click_on('Back')
     expect(page).to have_content("This article")
-    click_on('Delete')
+    #complete
   end
 end
 
