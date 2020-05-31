@@ -32,7 +32,7 @@ RSpec.feature "Make Post with validation", type: :feature do
     expect(page).should have_no_content("abc") 
   end
 
-  scenario "User will a user can edit an article" do
+  scenario "As a user I can create and edit an article" do
     visit "articles/new"
     fill_in "article_title", with: "This article"
     fill_in "article_text", with: "Hello here is some random text"
@@ -47,14 +47,14 @@ RSpec.feature "Make Post with validation", type: :feature do
     expect(page).to have_content("New title") 
   end
 
-  scenario "User will a user can edit an article" do
+  scenario "As a user I can delete an article" do
     visit "articles/new"
     fill_in "article_title", with: "This article"
     fill_in "article_text", with: "Hello here is some random text"
     click_button "Create Article"
     click_on('Back')
     expect(page).to have_content("This article")
-    #complete
+    #Currently incomplete due to issues installing capybara-webkit
   end
 end
 
