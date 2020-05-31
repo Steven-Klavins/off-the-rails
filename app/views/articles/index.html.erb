@@ -1,35 +1,28 @@
 <!DOCTYPE html>
-    <head>
-        <title>Articles</title>
-        <link rel="stylesheet" href="">
-    </head>
-
-    <body>
-      
-<h1>Articles</h1>
-
-<%= link_to 'New article', new_article_path %>
-
- 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Text</th>
-    <th></th>
-  </tr>
- 
-  <% @articles.each do |article| %>
+<head>
+  <title>Articles</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <h1>Articles</h1>
+  <%= link_to 'New article', new_article_path %>
+  <table>
     <tr>
-      <td><%= article.title %></td>
-      <td><%= article.text %></td>
-      <td><%= link_to 'Show', article_path(article) %></td>
-      <td><%= link_to 'Edit', edit_article_path(article) %></td>
-      <td><%= link_to 'Delete', article_path(article),
+      <th>Title</th>
+      <th>Text</th>
+      <th></th>
+    </tr>
+    <% @articles.each do |article| %>
+      <tr>
+        <td><%= article.title %></td>
+        <td><%= article.text %></td>
+        <td><%= link_to 'Show', article_path(article) %></td>
+        <td><%= link_to 'Edit', edit_article_path(article) %></td>
+        <td><%= link_to 'Delete', article_path(article),
       method: :delete,
       data: { confirm: 'Are you sure you want to delete this article?' } %></td>
-    </tr>
-  <% end %>
-</table>
-
-    </body>
+      </tr>
+    <% end %>
+  </table>
+</body>
 </html>
