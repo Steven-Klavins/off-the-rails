@@ -11,8 +11,10 @@
   
     
     <% @articles.each do |article| %>
-      <div>
+      <div class = 'contain'>
+      <div class = 'bold'>
       <%= article.title %>
+      </div>
       <%= article.text[0...60] + '...' %>
       <div>
       <%= link_to 'Show', article_path(article) %>
@@ -21,8 +23,9 @@
       method: :delete,
       data: { confirm: 'Are you sure you want to delete this article?' } %> 
       </div>
+      </div>
     <% end %>
-    </div>
+   
  
 </body>
 </html>
