@@ -42,7 +42,7 @@ RSpec.feature "Make Post with validation", type: :feature do
     click_on('Edit')
     fill_in "article_title", with: "New title"
     click_button "Update Article"
-    expect(page).to have_content("Title: New title") 
+    expect(page).to have_content("New title") 
     click_on('Back')
     expect(page).to have_content("New title") 
   end
