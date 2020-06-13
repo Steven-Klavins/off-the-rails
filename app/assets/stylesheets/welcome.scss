@@ -5,6 +5,7 @@
 @font-face {
   font-family: 'goodFont';
   src: url('/assets/KOMIKAHN.ttf');
+  opacity: 100%;
 }
 
 h1 {
@@ -22,4 +23,41 @@ h1 {
   height: 100px;
   vertical-align: middle;
   margin: 0px;
+}
+
+.my-container {
+  position: relative;
+  overflow: hidden;
+  color: #edf2f4;
+}
+.my-container2 {
+  padding: 200px;
+  position: relative;
+  z-index: 2;
+  color: #edf2f4;
+}
+.my-containerimg {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: auto;
+  min-height: 700px;
+  background-image: url('8195974.png');
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: -1;
+  color: #edf2f4;
+}
+
+.blog-button {
+  background-color: #d90429;
+  opacity: 100%;
+  color: #edf2f4;
+  width: 180px;
+  padding: 18px;
+  margin: auto;
+  border-radius: 2px;
+  font-family: 'goodFont';
+  font-size: 24px;
 }
