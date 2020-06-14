@@ -1,6 +1,12 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@font-face {
+  font-family: 'goodFont';
+  src: url('/assets/KOMIKAHN.ttf');
+  opacity: 100%;
+}
+
 .articleTitle {
   font-size: 80px;
   margin-left: auto;
@@ -18,13 +24,18 @@
 
 .bold {
   font-size: 25px;
+  margin-top: 20px;
+  font-family: 'goodFont';
 }
 
 .contain {
   margin-left: auto;
   margin-right: auto;
-  width: 15%;
-  padding-top: 30px;
+  width: 500px;
+  padding: 5px;
+  background-color: rgba(207, 207, 207, 0.5);
+  margin-top: 10px;
+  border-radius: 2px;
 }
 
 * {
