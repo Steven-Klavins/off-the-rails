@@ -5,7 +5,7 @@
 Off the rails a web app built in the Ruby on Rails frame-work, users can create, update, delete, and comment on articles. This project is an adaptation of the official [Getting Started with Rails Guide.](https://guides.rubyonrails.org/getting_started.html) 
 
 
-The tech stack for this project is Ruby, Ruby On Rails RSpec and PostgreSQL apposed to SQLight. In addition to this the app formats posts and has CSS styling. 
+The tech stack for this project is Ruby, Ruby On Rails RSpec and PostgreSQL apposed to SQLite. In addition to this the app formats posts and has CSS styling. 
 
 ## What you can do
 
@@ -42,21 +42,27 @@ visit `http://localhost:3000/`
 
 **The landing page (http://localhost:3000/)**
 
-There's not really a lot to say about this page other than click "Continue to blog"
+There's not really a lot to say about this page other than click "Continue to blog".
 
 **The articles page (http://localhost:3000/articles)**
 
 When you first run the app the only option available on this page will be to add a new article, once adding one or more you articles we have a list of additional options displayed underneath.
 
 <p align="center">
-<img src="article.png" alt="Article screenshot" width="300"/>
+<img src="article.png" alt="Article screenshot" width="400"/>
 </p>
 
 **Show**
 
+Click on show to view an article, here you will see comments and have the ability to add/remove comments.
+
 **Edit**
 
+Click edit on an article and you can update it!
+
 **Delete**
+
+Click delete on an article and you will get a prompt to confirm you want to remove the post. 
 
 **Future updates**
 
