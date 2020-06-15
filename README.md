@@ -2,10 +2,9 @@
 
 **About**
 
-Off the rails a web app built in the Ruby on Rails frame-work, users can create, update, delete, and comment on articles. This project is an adaptation of the official [Getting Started with Rails Guide.](https://guides.rubyonrails.org/getting_started.html) 
+Off the rails a web app built in the Ruby on Rails frame-work, users can create, update, delete, and comment on articles. This project is an adaptation of the official [Getting Started with Rails Guide](https://guides.rubyonrails.org/getting_started.html) with a few additional modifications. 
 
-
-The tech stack for this project is Ruby, Ruby On Rails RSpec and PostgreSQL apposed to SQLite. In addition to this the app formats posts and has CSS styling. 
+The tech stack I used for this project was Ruby, Rails, RSpec and PostgreSQL apposed to SQLite. In addition I adding feature testing, like breaks/styling for posts and CSS to make the site a little more welcoming. 
 
 ## What you can do
 
@@ -62,7 +61,11 @@ Click edit on an article and you can update it!
 
 **Delete**
 
-Click delete on an article and you will get a prompt to confirm you want to remove the post. 
+Click delete on an article and you will get a prompt to confirm you want to remove the post.
+
+**The process of building the app**
+
+Whilst making this app I made a series of blogs walking through how I made it step by step. You can find these blogs [here.](https://medium.com/@stevenklavins94/getting-started-with-rails-part-1-c634b59d3e4b) 
 
 **Future updates**
 
