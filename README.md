@@ -9,7 +9,7 @@ The tech stack for this project is Ruby, Ruby On Rails RSpec and PostgreSQL appo
 
 ## What you can do
 
-As a user you can post update and delete articles, articles persist when running the app on a local database.
+As a user you can post, update and delete articles, articles persist when running the app on a local database. Other users can also leave comments on your posts, they can also later delete their comments if they wish to do so.
 
 <p align="center">
 <img src="Screenshot.png" alt="drawing" width="600"/>
@@ -48,7 +48,9 @@ There's not really a lot to say about this page other than click "Continue to bl
 
 When you first run the app the only option available on this page will be to add a new article, once adding one or more you articles we have a list of additional options displayed underneath.
 
-![](/article.png =150px)
+<p align="center">
+<img src="article.png" alt="Article screenshot" width="300"/>
+</p>
 
 **Show**
 
