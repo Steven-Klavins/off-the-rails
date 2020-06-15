@@ -13,6 +13,7 @@ As a user you can post update and delete articles, articles persist when running
 
 ![](/Screenshot.png)
 
+
 **How to run**
 
 1. In order to run the application first clone the repo.
@@ -44,6 +45,14 @@ There's not really a lot to say about this page other than click "Continue to bl
 **The articles page (http://localhost:3000/articles)**
 
 When you first run the app the only option available on this page will be to add a new article, once adding one or more you articles we have a list of additional options displayed underneath.
+
+![](/article.png)
+
+**Show**
+
+**Edit**
+
+**Delete**
 
 **Future updates**
 
