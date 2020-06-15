@@ -16,7 +16,7 @@
       <%= article.title %>
       </div>
       <%= article.text[0...60] + '...' %>
-      <div>
+      <div class = 'links'>
       <%= link_to 'Show', article_path(article) %>
       <%= link_to 'Edit', edit_article_path(article) %>
       <%= link_to 'Delete', article_path(article),
@@ -25,11 +25,18 @@
       </div>
       </div>
     <% end %>
-
+  
     <%= link_to 'New article', new_article_path %>
+    <div class = 'bg'>
+    <div class = "my-article-bg">
+
+    </div>
+    </div>
+    
    
  
 </body>
+
 </html>
 
 
