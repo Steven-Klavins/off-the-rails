@@ -5,35 +5,32 @@
   <title>@article.title</title>
 </head>
 <body>
-<div class="topnav"><h1>Off The Rails</h1></div>
-
- <div class = "show">
- <div class = "articleTitle">
-  <p>
-    <%= @article.title %>
-  </p>
+  <div class="topnav">
+    <h1>Off The Rails</h1>
   </div>
-
-  <div class = "articleText">
-  <p >
-  <%= simple_format(@article.text) %>
-  </p>
-  </div>
-
-  <div class = "backLink">
-  <%= link_to 'Edit', edit_article_path(@article) %>
-  </div>
-  
-  <h2>Comments</h2>
-  <%= render @article.comments %>
-  <h2>Add a comment:</h2>
-  <%= render 'comments/form' %>
-  <div class = "backLink">
-  <%= link_to 'Back', articles_path %>
-  </div>
+  <div class = "show">
+    <div class = "articleTitle">
+      <p>
+        <%= @article.title %>
+      </p>
+    </div>
+    <div class = "articleText">
+      <p >
+        <%= simple_format(@article.text) %>
+      </p>
+    </div>
+    <div class = "backLink">
+      <%= link_to 'Edit', edit_article_path(@article) %>
+    </div>
+    <h2>Comments</h2>
+    <%= render @article.comments %>
+    <h2>Add a comment:</h2>
+    <%= render 'comments/form' %>
+    <div class = "backLink">
+      <%= link_to 'Back', articles_path %>
+    </div>
   </div>
   <div class = "my-article-bg">
-
   </div>
 </body>
 </html>
