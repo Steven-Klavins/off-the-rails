@@ -35,6 +35,16 @@ As a user you can post update and delete articles, articles persist when running
 
 visit `http://localhost:3000/`
 
+**Use**
+
+**The landing page (http://localhost:3000/)**
+
+There's not really a lot to say about this page other than click "Continue to blog"
+
+**The articles page (http://localhost:3000/articles)**
+
+When you first run the app the only option available on this page will be to add a new article, once adding one or more you articles we have a list of additional options displayed underneath.
+
 **Future updates**
 
 At present, there are a few things about this project I would like to add, probably the biggest being user authentication. If I deployed the site at this moment in time there would be no way of preventing users from editing articles under a false alias. However, to tell the truth, deployment was never really something I was planning on, the purpose of building this site was to help me learn Rails and in that, I did achieve my primary goal.  
