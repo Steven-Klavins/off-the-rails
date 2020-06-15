@@ -24,3 +24,5 @@ As a user you can post update and delete articles, articles persist when running
 `bundle install`
 
 **Future updates**
+
+At present, there are a few things about this project I would like to add, probably the biggest being user authentication. If I deployed the site at this moment in time there would be no way of preventing users from editing articles under a false alias. However, to tell the truth, deployment was never really something I was planning on, the purpose of building this site was to help me learn Rails and in that, I did achieve my primary goal.  
