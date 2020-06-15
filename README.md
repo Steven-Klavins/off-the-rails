@@ -18,3 +18,9 @@ As a user you can post update and delete articles, articles persist when running
 1. In order to run the application first clone the repo.
 
 `git clone git@github.com:Steven-Klavins/off-the-rails.git`
+
+2. Next navigate to the repo via your command line and run the following command.
+
+`bundle install`
+
+**Future updates**
