@@ -11,7 +11,9 @@ The tech stack for this project is Ruby, Ruby On Rails RSpec and PostgreSQL appo
 
 As a user you can post update and delete articles, articles persist when running the app on a local database.
 
-![](/Screenshot.png)
+<p align="center">
+<img src="Screenshot.png" alt="drawing" width="600"/>
+</p>
 
 
 **How to run**
@@ -46,7 +48,7 @@ There's not really a lot to say about this page other than click "Continue to bl
 
 When you first run the app the only option available on this page will be to add a new article, once adding one or more you articles we have a list of additional options displayed underneath.
 
-![](/article.png)
+![](/article.png =150px)
 
 **Show**
 
