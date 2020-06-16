@@ -67,9 +67,11 @@ Click delete on an article and you will get a prompt to confirm you want to remo
 
 Whilst making this app I made a series of blogs walking through how I made it step by step. You can find these blogs [here.](https://medium.com/@stevenklavins94/getting-started-with-rails-part-1-c634b59d3e4b) These blogs go rather in depth but in short I built the site following the [Getting Started with Rails Guide](https://guides.rubyonrails.org/getting_started.html) with my own modifications. 
 
-At the intial start up of the project I genrated a model using PostgreSQL, I made a blog on how this is done [here](https://medium.com/@stevenklavins94/setting-up-rails-with-postgresql-cb09f7791331). I learnt from previous projects it is far easier to configure this at the start of the project apposed to trying to change it later. I chose PostgreSQL as its a database I'm slightly more familiar with and provided what I need for this project. 
+At the start of the project I generated a model using PostgreSQL as my database of choice, I also made a blog on how this is done [here](https://medium.com/@stevenklavins94/setting-up-rails-with-postgresql-cb09f7791331). I quickly learned from previous projects it is far easier to configure this at the start of the project as opposed to changing it later. I chose PostgreSQL as its a database I'm slightly more familiar with and it provided what I needed for this project. However, after using Rails you soon find out a lot of database configuration is done in the background for you!
 
-A all of the controllers for the project were generated through the rails framework however I tweeked a few things here and there. The majority of changes were made in the views and this is where a number of the Rails helper methods came in handy. One helper method that was paricually usful was the 'simple_format' method, this allowed article text to retain line breaks, as small but really importent change in my opinion.
+All of the controllers were generated through the rails framework however I tweaked a few things here and there. 
+
+The views were also generated with the framework, however, a lot of modification was needed to get the desired outcome. The Rails helper methods were particularly useful here, one helper method I found useful was the 'simple_format' method. This allowed article text to retain line breaks, it's a small but really important change in my opinion, before adding this article text looked very clustered. 
 
 **Future updates**
 
