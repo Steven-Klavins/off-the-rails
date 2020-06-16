@@ -65,7 +65,9 @@ Click delete on an article and you will get a prompt to confirm you want to remo
 
 **The process of building the app**
 
-Whilst making this app I made a series of blogs walking through how I made it step by step. You can find these blogs [here.](https://medium.com/@stevenklavins94/getting-started-with-rails-part-1-c634b59d3e4b) These blogs go rather in depth but in short I built the site following the [Getting Started with Rails Guide](https://guides.rubyonrails.org/getting_started.html) with my own modifications. 
+Whilst making this app I made a series of blogs walking through how I made it step by step. You can find these blogs  These blogs go rather in depth but in short I built the site following the [Getting Started with Rails Guide](https://guides.rubyonrails.org/getting_started.html) with my own modifications. 
+
+Whilst working on this app I made a series of blogs walking through the process step by step. You can find these blogs [here.](https://medium.com/@stevenklavins94/getting-started-with-rails-part-1-c634b59d3e4b) These blogs go rather in-depth but in short, I built the site following the Getting Started with Rails Guide with a number of modifications.
 
 At the start of the project I generated a model using PostgreSQL as my database of choice, I also made a blog on how this is done [here](https://medium.com/@stevenklavins94/setting-up-rails-with-postgresql-cb09f7791331). I quickly learned from previous projects it is far easier to configure this at the start of the project as opposed to changing it later. I chose PostgreSQL as its a database I'm slightly more familiar with and it provided what I needed for this project. However, after using Rails you soon find out a lot of database configuration is done in the background for you!
 
