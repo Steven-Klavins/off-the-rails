@@ -8,7 +8,7 @@ The tech stack I used for this project was Ruby, Rails, RSpec and PostgreSQL app
 
 ## What you can do
 
-As a user you can post, update and delete articles, articles persist when running the app on a local database. Other users can also leave comments on your posts, they can also have the ability to revisit comments or delete them if they wish to do so. At present the site does not have authentication so there is no need for a login, however, this is something I would add if I were to deploy the site.
+As a user you can post, update and delete articles, articles persist when running the app on a local database. Other users can also leave comments on your posts, they also have the ability to revisit comments or delete them if they wish to do so. At present the site does not have authentication so there is no need for a login, however, this is something I would add if I were to deploy.
 
 <p align="center">
 <img src="Screenshot.png" alt="drawing" width="600"/>
@@ -29,11 +29,11 @@ As a user you can post, update and delete articles, articles persist when runnin
 
 `db:setup`
 
-3. Start the server with following command:
+3. Start the server with the following command:
 
 `rails s` 
 
-4. Well done your off the rails! Visit your local host and you'll be able to make some new articles. 
+4. Well done your off the rails! Visit your local host and you'll be able to create some new articles. 
 
 `http://localhost:3000/`
 
@@ -45,7 +45,7 @@ There's not really a lot to say about this page other than click "Continue to bl
 
 **The articles page (http://localhost:3000/articles)**
 
-When you first run the app the only option available on this page will be to add a new article, once adding one or more you articles we have a list of additional options displayed underneath.
+When you first run the app the only option available on this page will be to add a new article, once adding an article you will see a list of additional options displayed.
 
 <p align="center">
 <img src="article.png" alt="Article screenshot" width="400"/>
@@ -53,11 +53,11 @@ When you first run the app the only option available on this page will be to add
 
 **Show**
 
-Click on show to view an article, here you will see comments and have the ability to add/remove comments.
+Click on show to view an article, here you will see comments and have the ability to add/remove them.
 
 **Edit**
 
-Click edit on an article and you can update it!
+Click the edit option an article and you can update it!
 
 **Delete**
 
