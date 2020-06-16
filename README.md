@@ -2,13 +2,13 @@
 
 **About**
 
-Off the rails is a web app built in the Ruby on Rails frame-work, users can create, update, delete, and comment on articles. This project is an adaptation of the official [Getting Started with Rails Guide](https://guides.rubyonrails.org/getting_started.html) with a few additional modifications. 
+Off the rails is a web app built in the Ruby on Rails frame-work, users can create, update, delete, and comment on articles. This project is an adaptation of the official [Getting Started with Rails Guide](https://guides.rubyonrails.org/getting_started.html). 
 
-The tech stack I used for this project was Ruby, Rails, RSpec and PostgreSQL apposed to SQLite. In addition to this I adding feature RSpec/Capybara testing and line breaks/styling for posts and CSS to make the site a little more welcoming. 
+The tech stack I used for this project was Ruby, Rails, RSpec and PostgreSQL apposed to SQLite. In addition to this, I added RSpec/Capybara feature testing and line breaks/styling for posts. I also added some CSS to make the site a little more welcoming and to highlight the navigation links to improve the user experience.
 
 ## What you can do
 
-As a user you can post, update and delete articles, articles persist when running the app on a local database. Other users can also leave comments on your posts, they can also later delete their comments if they wish to do so.
+As a user you can post, update and delete articles, articles persist when running the app on a local database. Other users can also leave comments on your posts, they can also have the ability to revisit comments or delete them if they wish to do so. At present the site does not have authentication so there is no need for a login, however, this is something I would add if I were to deploy the site.
 
 <p align="center">
 <img src="Screenshot.png" alt="drawing" width="600"/>
@@ -17,15 +17,15 @@ As a user you can post, update and delete articles, articles persist when runnin
 
 **How to run**
 
-1. In order to run the application first clone the repo.
+1. In order to run the application first clone the repo to a local directory.
 
 `git clone git@github.com:Steven-Klavins/off-the-rails.git`
 
-2. Next navigate to the off-the-rails directory and run bundle install to add the dependencies.
+2. Next navigate to the off-the-rails folder and run bundle install to add the dependencies.
 
 `bundle install`
 
-3. Setup the PostgreSQL database locally with the following command:
+3. Setup the PostgreSQL database locally using the following command:
 
 `db:setup`
 
@@ -33,9 +33,9 @@ As a user you can post, update and delete articles, articles persist when runnin
 
 `rails s` 
 
-4. Well done your off the rails!
+4. Well done your off the rails! Visit your local host and you'll be able to make some new articles. 
 
-visit `http://localhost:3000/`
+`http://localhost:3000/`
 
 **Use**
 
