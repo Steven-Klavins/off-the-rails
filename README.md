@@ -63,6 +63,10 @@ Click the edit option an article and you can update it!
 
 Click delete on an article and you will get a prompt to confirm you want to remove the post.
 
+<p align="center">
+<img src="article_screenshot.png" alt="Article screenshot" width="400"/>
+</p>
+
 **The process of building the app**
 
 Whilst making this app I made a series of blogs walking through how I made it step by step. You can find these blogs  These blogs go rather in depth but in short I built the site following the [Getting Started with Rails Guide](https://guides.rubyonrails.org/getting_started.html) with my own modifications. 
@@ -73,7 +77,7 @@ At the start of the project I generated a model using PostgreSQL as my database 
 
 All of the controllers were generated through the rails framework however I tweaked a few things here and there. 
 
-The views were also generated with the framework, however, a lot of modification was needed to get the desired outcome. The Rails helper methods were particularly useful here, one helper method I found useful was the 'simple_format' method. This allowed article text to retain line breaks, it's a small but really important change in my opinion, before adding this article text looked very clustered. 
+The views were also generated with the framework, however, a lot of modification was needed to get the desired outcome. The Rails helper methods were particularly useful here, one helper method I found useful was the 'simple_format' method. This allowed article text to retain line breaks, it's a small but really important change in my opinion, before adding this articles text looked very clustered. 
 
 **Future updates**
 
