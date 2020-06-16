@@ -65,7 +65,11 @@ Click delete on an article and you will get a prompt to confirm you want to remo
 
 **The process of building the app**
 
-Whilst making this app I made a series of blogs walking through how I made it step by step. You can find these blogs [here.](https://medium.com/@stevenklavins94/getting-started-with-rails-part-1-c634b59d3e4b) 
+Whilst making this app I made a series of blogs walking through how I made it step by step. You can find these blogs [here.](https://medium.com/@stevenklavins94/getting-started-with-rails-part-1-c634b59d3e4b) These blogs go rather in depth but in short I built the site following the [Getting Started with Rails Guide](https://guides.rubyonrails.org/getting_started.html) with my own modifications. 
+
+At the intial start up of the project I genrated a model using PostgreSQL, I made a blog on how this is done [here](https://medium.com/@stevenklavins94/setting-up-rails-with-postgresql-cb09f7791331). I learnt from previous projects it is far easier to configure this at the start of the project apposed to trying to change it later. I chose PostgreSQL as its a database I'm slightly more familiar with and provided what I need for this project. 
+
+A all of the controllers for the project were generated through the rails framework however I tweeked a few things here and there. The majority of changes were made in the views and this is where a number of the Rails helper methods came in handy. One helper method that was paricually usful was the 'simple_format' method, this allowed article text to retain line breaks, as small but really importent change in my opinion.
 
 **Future updates**
 
