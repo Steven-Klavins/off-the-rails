@@ -2,9 +2,9 @@
 
 **About**
 
-Off the rails a web app built in the Ruby on Rails frame-work, users can create, update, delete, and comment on articles. This project is an adaptation of the official [Getting Started with Rails Guide](https://guides.rubyonrails.org/getting_started.html) with a few additional modifications. 
+Off the rails is a web app built in the Ruby on Rails frame-work, users can create, update, delete, and comment on articles. This project is an adaptation of the official [Getting Started with Rails Guide](https://guides.rubyonrails.org/getting_started.html) with a few additional modifications. 
 
-The tech stack I used for this project was Ruby, Rails, RSpec and PostgreSQL apposed to SQLite. In addition I adding feature testing, like breaks/styling for posts and CSS to make the site a little more welcoming. 
+The tech stack I used for this project was Ruby, Rails, RSpec and PostgreSQL apposed to SQLite. In addition to this I adding feature RSpec/Capybara testing and line breaks/styling for posts and CSS to make the site a little more welcoming. 
 
 ## What you can do
 
@@ -41,7 +41,7 @@ visit `http://localhost:3000/`
 
 **The landing page (http://localhost:3000/)**
 
-There's not really a lot to say about this page other than click "Continue to blog".
+There's not really a lot to say about this page other than click "Continue to blog", this page is essentially just a greeting to the site.
 
 **The articles page (http://localhost:3000/articles)**
 
